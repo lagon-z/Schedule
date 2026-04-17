@@ -12,17 +12,13 @@ File chạy Windows đã build sẵn:
 
 ## 2) Kiểm tra hash (khuyến nghị)
 
-SHA-256 hiện tại của file:
-
-- `[REDACTED]`
-
 Trên Windows (PowerShell):
 
 ```powershell
 Get-FileHash .\SupportTeamSchedule.exe -Algorithm SHA256
 ```
 
-Đảm bảo kết quả trùng hash trên.
+Bạn tự lưu kết quả hash nội bộ để đối chiếu khi cần.
 
 ## 3) Các cấu hình bảo mật đã bật trong bản desktop
 
